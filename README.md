@@ -4,7 +4,7 @@ The React To-Do App is a feature-rich, yet lightweight task management applicati
 
 Whether you’re tracking personal tasks, work-related assignments, or reminders, this app serves as a reliable companion to keep everything organized.  
 
-🔗 **Live Demo:** [View the To-Do App](https://shymdima.github.io/2048-project/)
+🔗 **Live Demo:** [View the To-Do App](https://shymdima.github.io/todo-app-project/)
 
 ## 🚀 Features  
 
