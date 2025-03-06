@@ -1,4 +1,14 @@
 import { createRoot } from 'react-dom/client';
-import { App } from './App';
 
-createRoot(document.getElementById('root') as HTMLElement).render(<App />);
+import './styles/index.scss';
+
+import { App } from './App';
+import { LocalStorageProvider } from './context/context';
+
+const container = document.getElementById('root') as HTMLDivElement;
+
+createRoot(container).render(
+  <LocalStorageProvider>
+    <App />
+  </LocalStorageProvider>,
+);
